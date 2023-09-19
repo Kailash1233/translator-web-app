@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -13,14 +13,11 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
@@ -36,3 +33,103 @@
     transform: rotate(360deg);
   }
 }
+
+.App h1 {
+  color: aliceblue;
+}
+
+/* Textarea styles */
+textarea {
+  width: calc(100% - 30px); /* Adjusted width */
+  box-shadow: -2px 5px 10px -5px rgba(0, 0, 0, 0.1);
+  outline: none;
+  border: 1px solid #ccc; /* Added border for clarity */
+  resize: none;
+  margin-bottom: 10px; /* Added margin for spacing */
+}
+
+/* Translate button styles */
+.btn-translate {
+  background-color: #808080; /* Grey color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Shadow */
+}
+
+.btn-translate:hover {
+  background-color: #696969; /* Darker grey on hover */
+}
+
+/* Copy button styles */
+.copy-btn {
+  background-color: #808080; /* Grey color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Shadow */
+  margin-top: 10px; /* Added margin for spacing */
+}
+
+.copy-btn:hover {
+  background-color: #696969; /* Darker grey on hover */
+}
+
+/* Textarea styles */
+textarea {
+  width: calc(100% - 30px); /* Adjusted width */
+  box-shadow: -2px 5px 10px -5px rgba(0, 0, 0, 0.1);
+  outline: none;
+  border: 1px solid #ccc; /* Added border for clarity */
+  resize: none;
+  margin-bottom: 10px; /* Added margin for spacing */
+}
+
+/* Translate button styles */
+.btn-translate {
+  background-color: #808080; /* Grey color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Shadow */
+}
+
+.btn-translate:hover {
+  background-color: #696969; /* Darker grey on hover */
+}
+
+/* Adjust button position */
+.btn-translate-container {
+  text-align: center;
+}
+
+#textblock-footer {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#textblock-sapient {
+  text-decoration: none;
+  color: #ff0000;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.footer-icons a {
+  padding: 5px;
+}
+

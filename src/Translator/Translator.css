@@ -1,0 +1,165 @@
+/* Global styles */
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(32, 33, 36);
+}
+
+/* Translator container styles */
+.translator {
+  width: 80%;
+  margin-left: 10%;
+}
+
+/* Row wrapper styles */
+.row-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Translator container styles for responsiveness */
+.translator-container {
+  width: 100%;
+}
+
+/* Text box styles */
+.text-box {
+  min-height: 200px;
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 7px;
+  border: 1px solid #ccc; /* Added border for clarity */
+  background-color: rgb(32, 33, 36);
+  color: #ccc;
+}
+
+/* Textarea styles */
+textarea {
+  width: calc(100% - 30px); /* Adjusted width */
+  box-shadow: -2px 5px 10px -5px rgba(0, 0, 0, 0.1);
+  outline: none;
+  border: 1px solid #ccc; /* Added border for clarity */
+  resize: none;
+}
+
+/* Placeholder styles */
+textarea::placeholder,
+.output-placeholder {
+  color: #ccc;
+  user-select: none;
+  cursor: text;
+}
+
+/* Input form styles */
+.input-form {
+  position: relative;
+  margin-bottom: 20px; /* Added margin for spacing */
+}
+
+/* Icon button styles */
+.icon-btn {
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  transition: color 0.2s ease-in-out;
+  color: aliceblue;
+}
+
+.icon-btn:hover {
+  color: #696969;
+}
+
+/* Speaker icon styles */
+.speaker {
+  font-size: 27px;
+  position: absolute;
+  bottom: 10px;
+  right: 50px;
+}
+
+/* Copy button styles */
+.copy-btn {
+  position: absolute;
+  font-size: 20px;
+  bottom: 10px;
+  right: 90px;
+  cursor: pointer;
+}
+
+/* Copy output button styles */
+.copy-output-btn {
+  position: absolute;
+  font-size: 20px;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+/* Output box styles */
+.output-box {
+  position: relative;
+  box-shadow: 2px 5px 10px -5px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  padding: 15px;
+  font-size: 18px;
+  border: 1px solid #ccc; /* Added border for clarity */
+  min-height: 200px;
+  background-color: #808080;
+}
+
+/* Loading output styles */
+.loading-output {
+  font-size: 20px;
+  font-weight: bold;
+  color: #6c757d;
+  letter-spacing: 2px;
+}
+
+/* Top row styles */
+.top-row {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  margin: 7px 0px;
+}
+
+/* Translate button and select dropdown styles */
+.btn-translate,
+.top-row select {
+  margin-left: auto;
+  width: 7em;
+}
+
+/* Translation error styles */
+.translation-error {
+  color: #ff1234;
+}
+
+/* Select dropdown styles */
+select {
+  background-color: #808080;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+select:hover {
+  background-color: #696969;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1279px) {
+  .translator {
+    width: 100%;
+    margin-left: 0;
+  }
+}
